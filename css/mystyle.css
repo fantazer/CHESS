@@ -73,6 +73,9 @@
   opacity: 1 !important;
   top: inherit !important;
 }
+input[type="text"] {
+  height: 45px;
+}
 @media only screen and (max-width: 1200px) {
   .main-section__logo {
     font-size: 120px;
