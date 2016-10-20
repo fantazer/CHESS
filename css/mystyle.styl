@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+  content: "\e900";
+}
+.icon-clock:before {
+  content: "\e901";
+}
+.icon-hierarch:before {
+  content: "\e902";
+}
+.icon-user:before {
+  content: "\e903";
+}
+.icon-trophy:before {
+  content: "\e904";
+}
+.icon-users:before {
+  content: "\e905";
+}
+
+.main-section__logo
+  font-size 280px
+  margin-bottom 30px
+
+.btn__main
+  font-size 14px
+  text-transform uppercase
+  color white
+  padding 15px
+  border 1px solid white
+  font-weight 900
+
+.main-section__reg
+  margin-top 20px
+  display inline-block
+
+.brand-name
+  font-size 4vw
+
+.info__icon
+  font-size 60px
+
+.btn__main-pay
+  color black
+  border-color black
+  padding 15px 40px
+  
+.form-control
+  background none!important
+
+.error
+  color red!important
+  z-index 1!important
+  opacity 1!important
+  top inherit!important
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .main-section__logo{
+    font-size 120px
+  }
+  .top-menu__wraper a{
+      font-size 10px
+      padding 10px 5px!important
+   }
+  .current__info{
+    display:flex;
+    flex-flow:column;
+    align-items center
+  }
+  .current__info-el{
+    margin-bottom 40px
+  }
+  h1{
+    font-size 26px
+  }
+  .midle-img{
+    margin 0 auto
+  }
+  .media{
+    display:flex;
+    flex-flow:column;
+  }
+  .media-body{
+    width:100%;
+  }
+  .media-heading{
+    text-align center
+  }
+  .info__icon{
+   text-align:center;
+   padding-rigth:0!important;
+   margin-bottom:20px;
+  }
+}
+.select__age{
+  width 100%
+  padding 20px
+  margin 10px 0
+  border 1px solid #e1e1e1
+  color: #555;
+  font-size 24px
+}
+
+.select-label{
+  opacity 1!important
+  top 0px!important
+}
+.partners{
+  display flex
+  -webkit-justify-content space-around
+  justify-content space-around
+  img{
+    width 100%
+  }
+}
+.partners__el{
+  width 20%
+}
+.form__row{
+  padding-left 0!important
+  padding-right 0!important
+}
+@media only screen and (max-width: 768px) {
+   .top-menu__panel{
+   padding 10px
+   }
+      .top-menu__wraper a{
+        font-size 14px
+        padding 10px!important
+   }
+  .main-logo__el{
+    width 200px
+  }
+  .main-section__brand-name{
+    font-size 26px!important
+  }
+  .contact-section{
+    padding:0 30px!important;
+  }
+}
